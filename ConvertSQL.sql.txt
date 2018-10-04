@@ -1,0 +1,17 @@
+-- Добавил таблицу "Users"
+create table users
+(
+  name  varchar(256) not null,
+  recid bigserial    not null
+    constraint users_pk
+    primary key
+);
+
+alter table users
+  owner to root;
+
+create unique index users_recid_uindex
+  on users (recid);
+
+
+
