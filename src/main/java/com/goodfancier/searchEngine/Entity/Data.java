@@ -1,22 +1,24 @@
-package com.example.demo.Entity;
+package com.goodfancier.searchEngine.Entity;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Data implements DomainObject {
-
+public class Data implements DomainObject
+{
     private String id;
 
     private String name;
 
-    public Data(String id, String name) {
+    public Data(String id, String name)
+    {
         this.id = id;
         this.name = name;
     }
 
-    public Data(String id, String name, String lat, String lon) {
+    public Data(String id, String name, String lat, String lon)
+    {
         this.id = id;
         this.name = name;
         this.lat = lat;

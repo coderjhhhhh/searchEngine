@@ -1,7 +1,6 @@
-package com.example.demo.Service;
+package com.goodfancier.searchEngine.Service;
 
-import com.example.demo.Entity.Data;
-import com.example.demo.Repository.DataRepository;
+import com.goodfancier.searchEngine.Repository.IDataRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,18 +8,19 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
-import java.util.UUID;
 
 @Service("dataService")
-public class DataServiceImpl implements DataService {
-    private static final Logger LOG = LoggerFactory.getLogger(DataServiceImpl.class);
+public class DataService implements IDataService
+{
+    private static final Logger LOG = LoggerFactory.getLogger(DataService.class);
 
     @Autowired
     @Qualifier("dataRepository")
-    private DataRepository dataRepository;
+    private IDataRepository dataRepository;
 
     @Override
-    public boolean persist(String problem) {
+    public boolean persist(String problem)
+    {
         /*
         try {
             dataRepository.persist(new Data(UUID.randomUUID(), problem));
@@ -34,7 +34,8 @@ public class DataServiceImpl implements DataService {
     }
 
     @Override
-    public Set<String> getRandomData() {
+    public Set<String> getRandomData()
+    {
         return dataRepository.getRandomData();
     }
 }
