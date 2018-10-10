@@ -1,6 +1,6 @@
-package com.example.demo.config;
+package com.goodfancier.searchEngine.config;
 
-import com.example.demo.DemoApplication;
+import com.goodfancier.searchEngine.SearchEngineApplication;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Value;
@@ -20,8 +20,9 @@ import java.util.Properties;
 @Configuration
 @EnableAutoConfiguration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackageClasses = DemoApplication.class)
-public class JpaConfig implements TransactionManagementConfigurer {
+@EnableJpaRepositories(basePackageClasses = SearchEngineApplication.class)
+public class JpaConfig implements TransactionManagementConfigurer
+{
 
     @Value("${dataSource.driverClassName}")
     private String driver;
@@ -37,7 +38,8 @@ public class JpaConfig implements TransactionManagementConfigurer {
     private String hbm2ddlAuto;
 
     @Bean
-    public HikariDataSource configureDataSource() {
+    public HikariDataSource configureDataSource()
+    {
         HikariConfig config = new HikariConfig();
         config.setDriverClassName(driver);
         config.setJdbcUrl(url);
@@ -48,7 +50,8 @@ public class JpaConfig implements TransactionManagementConfigurer {
     }
 
     @Bean
-    public LocalContainerEntityManagerFactoryBean configureEntityManagerFactory() {
+    public LocalContainerEntityManagerFactoryBean configureEntityManagerFactory()
+    {
         LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
         entityManagerFactoryBean.setDataSource(configureDataSource());
         entityManagerFactoryBean.setPackagesToScan("com.example");
@@ -63,7 +66,8 @@ public class JpaConfig implements TransactionManagementConfigurer {
     }
 
     @Bean
-    public PlatformTransactionManager annotationDrivenTransactionManager() {
+    public PlatformTransactionManager annotationDrivenTransactionManager()
+    {
         return new JpaTransactionManager();
     }
 
