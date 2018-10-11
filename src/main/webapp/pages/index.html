@@ -2,20 +2,29 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>YourApp</title>
+    <title>Search Engine App</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../resources/CSS/style.css">
 </head>
 <body>
-<h2> Hello Spring Boot </h2>
-<input type="text" id="data"/>
+<h2> Поисковик StackExchange </h2>
+<header class="top-bar">
+</header>
+
+<tr>
+    <td>Enter your title</td>
+    <td><input id="title" name="title"></td>
+    <td><button onclick="getRest()">Submit</button></td>
+</tr>
 <a id="post" href="#">POST</a>
 <a id="get" href="#">GET</a>
 
-<div id="container">
+<div id="result"></div>
+
+<!--<div id="container">
     <table id="example" class="display" cellspacing="0" width="100%">
         <thead>
-        <tr>asdadad
+        <tr>
             <th>IDs</th>
             <th>Names</th>
             <th>Lattitude</th>
@@ -24,6 +33,7 @@
         </thead>
     </table>
 </div>
+-->
 </body>
 <footer >goodFancier</footer>
 

@@ -3,6 +3,7 @@ package com.goodfancier.searchEngine.config;
 import com.goodfancier.searchEngine.SearchEngineApplication;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+import org.hibernate.cfg.Environment;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
@@ -45,7 +46,6 @@ public class JpaConfig implements TransactionManagementConfigurer
         config.setJdbcUrl(url);
         config.setUsername(username);
         config.setPassword(password);
-
         return new HikariDataSource(config);
     }
 
@@ -60,6 +60,8 @@ public class JpaConfig implements TransactionManagementConfigurer
         Properties jpaProperties = new Properties();
         jpaProperties.put(org.hibernate.cfg.Environment.DIALECT, dialect);
         jpaProperties.put(org.hibernate.cfg.Environment.HBM2DDL_AUTO, hbm2ddlAuto);
+        jpaProperties.put(Environment.NON_CONTEXTUAL_LOB_CREATION, true);
+
         entityManagerFactoryBean.setJpaProperties(jpaProperties);
 
         return entityManagerFactoryBean;
