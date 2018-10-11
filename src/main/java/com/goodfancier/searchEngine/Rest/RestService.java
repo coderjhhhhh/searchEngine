@@ -55,13 +55,14 @@ public class RestService implements IRestService
 
     private List<Theme> getData(CloseableHttpResponse response) throws IOException
     {
+        QueryResult result = objectMapper.readValue(EntityUtils.toString(response.getEntity()), QueryResult.class);
         List<Theme> list = new ArrayList<>(5);
-        for (Theme stack : objectMapper.readValue(EntityUtils.toString(response.getEntity()), QueryResult.class).getItems())
+        for (Theme stack : result.getItems())
         {
             Theme theme = new Theme();
             theme.setAnswerCount(stack.getAnswerCount());
-            theme.setDate(stack.getDate());
-            theme.setOwnerName(stack.getOwner().getName());
+            theme.setCreation_date(stack.getCreation_date());
+            theme.setOwner(stack.getOwner());
             theme.setTitle(stack.getTitle());
             theme.setLink(stack.getLink());
             list.add(theme);
