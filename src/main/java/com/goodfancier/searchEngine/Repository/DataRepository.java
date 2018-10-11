@@ -1,6 +1,6 @@
 package com.goodfancier.searchEngine.Repository;
 
-import com.goodfancier.searchEngine.Entity.Data;
+import com.goodfancier.searchEngine.Entity.Theme;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcOperations;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
@@ -9,14 +9,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 @org.springframework.stereotype.Repository("dataRepository")
-public class DataRepository implements IDataRepository<Data>
+public class DataRepository implements IDataRepository<Theme>
 {
 
     @Autowired
     protected JdbcOperations jdbcOperations;
 
     @Override
-    public void persist(Data object)
+    public void persist(Theme object)
     {
 /*
         Object[] params = new Object[] { object.getId(), object.getDescription() };
@@ -26,7 +26,7 @@ public class DataRepository implements IDataRepository<Data>
     }
 
     @Override
-    public void delete(Data object)
+    public void delete(Theme object)
     {
         jdbcOperations.update("DELETE FROM stocks WHERE RecID = 138;");
     }

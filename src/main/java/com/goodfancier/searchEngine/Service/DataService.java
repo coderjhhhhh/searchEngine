@@ -23,7 +23,7 @@ public class DataService implements IDataService
     {
         /*
         try {
-            dataRepository.persist(new Data(UUID.randomUUID(), problem));
+            dataRepository.persist(new Theme(UUID.randomUUID(), problem));
             return true;
         } catch (Exception e) {
             LOG.error("ERROR SAVING DATA: " + e.getMessage(), e);
