@@ -8,11 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-
 @Controller
 public class ExceptionHandlerController
 {
-
     private static final Logger LOG = LoggerFactory.getLogger(ExceptionHandlerController.class);
 
     @ExceptionHandler(RestException.class)

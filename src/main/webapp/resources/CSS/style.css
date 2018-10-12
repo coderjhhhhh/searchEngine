@@ -9,7 +9,6 @@ h2{
 }
 
 html{
-    background: #b5b5b5;
     height: 100%;
 }
 
@@ -22,7 +21,13 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: darkgray;
     color: white;
     text-align: center;
 }
+
+.answered, a {
+    color: #666 !important;
+    font-weight: bold;
+}
+
