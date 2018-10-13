@@ -1,5 +1,11 @@
 package com.goodfancier.searchEngine.Entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Theme implements DomainObject
 {
     private String[] tags;
@@ -11,6 +17,19 @@ public class Theme implements DomainObject
     private Long protected_date;
     private Integer answer_count;
     private Integer score;
+    private String name;
+
+    private DateFormat formatter = new SimpleDateFormat("dd.MM.yyyy");
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
 
     public String[] getTags()
     {
@@ -112,12 +131,12 @@ public class Theme implements DomainObject
         this.last_edit_date = last_edit_date;
     }
 
-    public String getCreation_date()
+    public Date getCreation_date()
     {
         return creation_date;
     }
 
-    public void setCreation_date(String creation_date)
+    public void setCreation_date(Date creation_date)
     {
         this.creation_date = creation_date;
     }
@@ -144,11 +163,47 @@ public class Theme implements DomainObject
 
     private Long last_activity_date;
     private Long last_edit_date;
-    private String creation_date;
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd.MM.yyyy HH:mm a z")
+    private Date creation_date;
+
     private Long question_id;
     private String link;
     private String closed_reason;
     private String title;
+    private int bounty_amount;
+    private String bounty_closes_date;
+    private String migrated_from;
+
+    public String getMigrated_from()
+    {
+        return migrated_from;
+    }
+
+    public void setMigrated_from(String migrated_from)
+    {
+        this.migrated_from = migrated_from;
+    }
+
+    public String getBounty_closes_date()
+    {
+        return bounty_closes_date;
+    }
+
+    public void setBounty_closes_date(String bounty_closes_date)
+    {
+        this.bounty_closes_date = bounty_closes_date;
+    }
+
+    public int getBounty_amount()
+    {
+        return bounty_amount;
+    }
+
+    public void setBounty_amount(int bounty_amount)
+    {
+        this.bounty_amount = bounty_amount;
+    }
 
     public Integer getAnswerCount()
     {

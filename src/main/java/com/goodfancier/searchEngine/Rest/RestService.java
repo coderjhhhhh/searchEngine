@@ -1,6 +1,7 @@
 package com.goodfancier.searchEngine.Rest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.goodfancier.searchEngine.Controller.ThemeController;
 import com.goodfancier.searchEngine.Entity.Theme;
 import com.goodfancier.searchEngine.Entity.QueryResult;
 import com.goodfancier.searchEngine.Utils.WebListener;
@@ -14,6 +15,8 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -62,7 +65,7 @@ public class RestService implements IRestService
             Theme theme = new Theme();
             theme.setAnswerCount(stack.getAnswerCount());
             theme.setCreation_date(stack.getCreation_date());
-            theme.setOwner(stack.getOwner());
+            theme.setName(stack.getOwner().getDisplay_name());
             theme.setTitle(stack.getTitle());
             theme.setLink(stack.getLink());
             list.add(theme);

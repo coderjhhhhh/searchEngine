@@ -6,14 +6,14 @@ function getRest() {
     var xhr = new XMLHttpRequest();
     var body = document.getElementById("title").value;
     if (body == '') {
-        alert('Please enter a valid title.');
+        alert('Пожалуйста, введи коректное значение для поиска');
         return false;
     } else {
         xhr.open("POST", '/getResult', true);
         xhr.setRequestHeader('Content-Type', 'text/plain');
 
         xhr.upload.onprogress = function (event) {
-            log("Sending request. Please wait ...");
+            log("Выполняется поиск. Пожалуйста подождите ...");
         }
 
         xhr.onreadystatechange = function () {
@@ -26,36 +26,34 @@ function getRest() {
                     items = items.items;
                     var table = document.createElement("table");
                     table.id = 'res';
-                    table.className = "simple-little-table";
+                    table.className = "table";
                     table.cellSpacing = 0;
                     var tr = document.createElement("tr");
-                    tr.innerHTML = "<th>Date</th><th>Author</th><th>Title</th><th>Link</th>";
+                    tr.innerHTML = "<th>Date</th><th>Author</th><th>Title</th>";
                     table.appendChild(tr);
                     for (i = 0; i < items.length; i++) {
                         tr = document.createElement("tr");
                         if (items[i].answerCount > 0) {
-                            tr.className = "font-text"
+                            tr.className = "answered"
                         }
                         var td = document.createElement("td");
-                        td.innerHTML = items[i].date;
+                        td.innerHTML = items[i].creation_date;
                         tr.appendChild(td);
                         td = document.createElement("td");
-                        td.innerHTML = items[i].author;
+                        td.innerHTML = items[i].name;
                         tr.appendChild(td);
                         td = document.createElement("td");
-                        td.innerHTML = items[i].title;
-                        tr.appendChild(td);
-                        td = document.createElement("td");
-                        td.innerHTML = "<a href='" + items[i].link + "' target='_blank'>view</a>";
+                        td.innerHTML =  "<a href='" + items[i].link + "' target='_blank'>" + items[i].title + "</a>";
                         tr.appendChild(td);
                         table.appendChild(tr);
                     }
                     result.appendChild(table);
                 } else {
-                    result.innerHTML = "<h3 id='res'>Not found</h3>";
+                    result.innerHTML = "<h3 id='res'>Ничего не найдено</h3>";
                 }
                 log(null);
             }
+            else log("сервер временно не доступен")
         }
     }
     xhr.send(body);

@@ -1,0 +1,777 @@
+{
+  "items": [
+    {
+      "tags": [
+        "java",
+        "dependency-injection"
+      ],
+      "owner": {
+        "reputation": 4,
+        "user_id": 8461698,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/1467758953310673/picture?type=large",
+        "display_name": "Bal&#225;zs Fodor-Pap",
+        "link": "https://stackoverflow.com/users/8461698/bal%c3%a1zs-fodor-pap"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1539432733,
+      "creation_date": 1539432733,
+      "question_id": 52792797,
+      "link": "https://stackoverflow.com/questions/52792797/java-dependency-injection-multiple-object",
+      "title": "Java Dependency injection multiple object"
+    },
+    {
+      "tags": [
+        "java",
+        "equals",
+        "trim"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 10498742,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/5b5d47827960e0a82b69c2b082c4a75d?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Telno",
+        "link": "https://stackoverflow.com/users/10498742/telno"
+      },
+      "is_answered": false,
+      "view_count": 48,
+      "answer_count": 0,
+      "score": -2,
+      "last_activity_date": 1539432707,
+      "creation_date": 1539425741,
+      "last_edit_date": 1539432707,
+      "question_id": 52791853,
+      "link": "https://stackoverflow.com/questions/52791853/java-equals-string-trim-equals-returns-false-even-if-strings-are-equal-sol",
+      "title": "java equals String.trim().equals() returns false even if strings are equal - Solved"
+    },
+    {
+      "tags": [
+        "java",
+        "serialization"
+      ],
+      "owner": {
+        "reputation": 76,
+        "user_id": 6652192,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c490f0b75ada2bcc33a1a812e2bf70ee?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Cherokee",
+        "link": "https://stackoverflow.com/users/6652192/cherokee"
+      },
+      "is_answered": false,
+      "view_count": 22,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1539432123,
+      "creation_date": 1539430508,
+      "last_edit_date": 1539432123,
+      "question_id": 52792493,
+      "link": "https://stackoverflow.com/questions/52792493/how-does-java-serialization-solve-circular-reference-problems",
+      "title": "How does java serialization solve circular reference problems?"
+    },
+    {
+      "tags": [
+        "java",
+        "constructor",
+        "boolean"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 10498693,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/41571ca47284809660de9f268e039807?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Juno",
+        "link": "https://stackoverflow.com/users/10498693/juno"
+      },
+      "is_answered": false,
+      "view_count": 30,
+      "closed_date": 1539423932,
+      "answer_count": 2,
+      "score": -2,
+      "last_activity_date": 1539431943,
+      "creation_date": 1539423296,
+      "last_edit_date": 1539431943,
+      "question_id": 52791550,
+      "link": "https://stackoverflow.com/questions/52791550/how-to-write-constructor-with-boolean-in-java",
+      "closed_reason": "duplicate",
+      "title": "How to write constructor with boolean in java?"
+    },
+    {
+      "tags": [
+        "java",
+        "swing",
+        "awt",
+        "drawing"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 9767706,
+        "user_type": "registered",
+        "profile_image": "https://lh5.googleusercontent.com/-wwDMTO2Ifv4/AAAAAAAAAAI/AAAAAAAAA-Q/NuLi2ctUTXY/photo.jpg?sz=128",
+        "display_name": "Anima",
+        "link": "https://stackoverflow.com/users/9767706/anima"
+      },
+      "is_answered": false,
+      "view_count": 14,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1539430895,
+      "creation_date": 1539430318,
+      "last_edit_date": 1539430895,
+      "question_id": 52792463,
+      "link": "https://stackoverflow.com/questions/52792463/java-drawing-moving-rectangles-in-loop",
+      "title": "Java drawing moving rectangles in loop"
+    },
+    {
+      "tags": [
+        "apache-spark",
+        "amazon-s3",
+        "amazon-ec2",
+        "jar",
+        "amazon-emr"
+      ],
+      "owner": {
+        "reputation": 10,
+        "user_id": 9911641,
+        "user_type": "registered",
+        "profile_image": "https://lh5.googleusercontent.com/-paK2quzc6UY/AAAAAAAAAAI/AAAAAAAAAAA/FtfaGSzeDBk/photo.jpg?sz=128",
+        "display_name": "Jeremy Lin",
+        "link": "https://stackoverflow.com/users/9911641/jeremy-lin"
+      },
+      "is_answered": false,
+      "view_count": 65,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1539430816,
+      "creation_date": 1531873960,
+      "question_id": 51391911,
+      "link": "https://stackoverflow.com/questions/51391911/trying-to-run-spark-on-emr-using-the-aws-sdk-for-java-but-it-skips-the-remote-j",
+      "title": "Trying to run Spark on EMR using the AWS SDK for Java, but it skips the remote JAR stored on S3"
+    },
+    {
+      "tags": [
+        "java",
+        "for-loop"
+      ],
+      "owner": {
+        "reputation": 3,
+        "user_id": 10498850,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/-2OluzxQgZRE/AAAAAAAAAAI/AAAAAAAAAAA/AAN31DWgFq-E8Y0fGp9SGXfdRWVhE4QqRQ/mo/photo.jpg?sz=128",
+        "display_name": "Lenka",
+        "link": "https://stackoverflow.com/users/10498850/lenka"
+      },
+      "is_answered": true,
+      "view_count": 15,
+      "accepted_answer_id": 52792248,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1539430154,
+      "creation_date": 1539427883,
+      "last_edit_date": 1539430154,
+      "question_id": 52792135,
+      "link": "https://stackoverflow.com/questions/52792135/use-of-for-loops-in-java",
+      "title": "use of for-loops in Java"
+    },
+    {
+      "tags": [
+        "java",
+        "arrays",
+        "delimiter",
+        "delimited-text"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 6257986,
+        "user_type": "registered",
+        "accept_rate": 0,
+        "profile_image": "https://www.gravatar.com/avatar/7234bea3509d27af14ea45977adf7970?s=128&d=identicon&r=PG&f=1",
+        "display_name": "James",
+        "link": "https://stackoverflow.com/users/6257986/james"
+      },
+      "is_answered": false,
+      "view_count": 772,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1539429859,
+      "creation_date": 1461950452,
+      "last_edit_date": 1539429859,
+      "question_id": 36944142,
+      "link": "https://stackoverflow.com/questions/36944142/java-reading-text-file-with-delimiter-and-pushing-into-an-array",
+      "title": "Java reading text file with delimiter and pushing into an array"
+    },
+    {
+      "tags": [
+        "java"
+      ],
+      "owner": {
+        "reputation": 2347,
+        "user_id": 3632206,
+        "user_type": "registered",
+        "accept_rate": 71,
+        "profile_image": "https://www.gravatar.com/avatar/70c95cfa616112abaa8c04a878c256ed?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Sebastian Zeki",
+        "link": "https://stackoverflow.com/users/3632206/sebastian-zeki"
+      },
+      "is_answered": true,
+      "view_count": 862,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1539429840,
+      "creation_date": 1461948486,
+      "last_edit_date": 1539429840,
+      "question_id": 36943641,
+      "link": "https://stackoverflow.com/questions/36943641/how-to-insert-a-hashmap-into-a-database-in-java",
+      "title": "How to insert a HashMap into a database in java"
+    },
+    {
+      "tags": [
+        "java",
+        "decimal",
+        "bigdecimal"
+      ],
+      "owner": {
+        "reputation": 99,
+        "user_id": 5114012,
+        "user_type": "registered",
+        "accept_rate": 35,
+        "profile_image": "https://www.gravatar.com/avatar/6797b22f2e4f8ade68c912a2da0b5715?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Gopi Lal",
+        "link": "https://stackoverflow.com/users/5114012/gopi-lal"
+      },
+      "is_answered": true,
+      "view_count": 62,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1539429789,
+      "creation_date": 1461927454,
+      "last_edit_date": 1539429789,
+      "question_id": 36936527,
+      "link": "https://stackoverflow.com/questions/36936527/change-6-51-to-6-50-in-java-bigdecimal",
+      "title": "Change 6.51 to 6.50 in java BigDecimal"
+    },
+    {
+      "tags": [
+        "java",
+        "interface",
+        "functional-interface"
+      ],
+      "owner": {
+        "reputation": 3,
+        "user_id": 10272675,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/bf3311f47702affc36d6ffe0ea33eb35?s=128&d=identicon&r=PG&f=1",
+        "display_name": "sevenpi",
+        "link": "https://stackoverflow.com/users/10272675/sevenpi"
+      },
+      "is_answered": false,
+      "view_count": 13,
+      "closed_date": 1539429761,
+      "answer_count": 0,
+      "score": -3,
+      "last_activity_date": 1539429674,
+      "creation_date": 1539429674,
+      "question_id": 52792376,
+      "link": "https://stackoverflow.com/questions/52792376/what-is-the-difference-between-interface-and-functional-interface-in-java",
+      "closed_reason": "duplicate",
+      "title": "what is the difference between interface and functional interface in java"
+    },
+    {
+      "tags": [
+        "java",
+        "nginx",
+        "kotlin"
+      ],
+      "owner": {
+        "reputation": 7,
+        "user_id": 10145511,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/f66f6c7961dcd8637a2c79cff05d46f5?s=128&d=identicon&r=PG&f=1",
+        "display_name": "jogendra",
+        "link": "https://stackoverflow.com/users/10145511/jogendra"
+      },
+      "is_answered": false,
+      "view_count": 14,
+      "answer_count": 0,
+      "score": -2,
+      "last_activity_date": 1539429530,
+      "creation_date": 1539424920,
+      "last_edit_date": 1539429530,
+      "question_id": 52791773,
+      "link": "https://stackoverflow.com/questions/52791773/301-moved-permanently-java",
+      "title": "301 Moved Permanently Java"
+    },
+    {
+      "tags": [
+        "java",
+        "android",
+        "optimization",
+        "android-drawable",
+        "android-button"
+      ],
+      "owner": {
+        "reputation": 86,
+        "user_id": 5876796,
+        "user_type": "registered",
+        "accept_rate": 65,
+        "profile_image": "https://www.gravatar.com/avatar/7361991274f215cdd557441488e8d2dc?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Shohidul Alam",
+        "link": "https://stackoverflow.com/users/5876796/shohidul-alam"
+      },
+      "is_answered": false,
+      "view_count": 27,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1539429268,
+      "creation_date": 1539424513,
+      "last_edit_date": 1539425113,
+      "question_id": 52791709,
+      "link": "https://stackoverflow.com/questions/52791709/how-to-apply-the-same-drawable-for-multiple-buttons-dynamically-in-java",
+      "title": "How to apply the same drawable for multiple buttons dynamically in Java?"
+    },
+    {
+      "tags": [
+        "java",
+        "bluetooth",
+        "rfcomm",
+        "bluecove"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 9610861,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/931774223646980/picture?type=large",
+        "display_name": "Ivan",
+        "link": "https://stackoverflow.com/users/9610861/ivan"
+      },
+      "is_answered": false,
+      "view_count": 4,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1539428883,
+      "creation_date": 1539428883,
+      "question_id": 52792277,
+      "link": "https://stackoverflow.com/questions/52792277/rfcomm-client-with-bluecove-on-java",
+      "title": "RFCOMM Client with Bluecove on Java"
+    },
+    {
+      "tags": [
+        "java",
+        "html",
+        "xml",
+        "xpath",
+        "xhtml"
+      ],
+      "owner": {
+        "reputation": 8,
+        "user_id": 6927126,
+        "user_type": "registered",
+        "accept_rate": 50,
+        "profile_image": "https://www.gravatar.com/avatar/9ab348d7294a17473ca6e3afb537600e?s=128&d=identicon&r=PG&f=1",
+        "display_name": "L. Don",
+        "link": "https://stackoverflow.com/users/6927126/l-don"
+      },
+      "is_answered": false,
+      "view_count": 22,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1539428451,
+      "creation_date": 1539354803,
+      "last_edit_date": 1539427434,
+      "question_id": 52781780,
+      "link": "https://stackoverflow.com/questions/52781780/how-to-get-the-xpath-of-an-element-in-html-in-java",
+      "title": "How to get the XPath of an element in HTML in java?"
+    },
+    {
+      "tags": [
+        "java",
+        "final"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 10498871,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/beebb5b9ba0ec38df4872baa9d81c230?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Niharika",
+        "link": "https://stackoverflow.com/users/10498871/niharika"
+      },
+      "is_answered": true,
+      "view_count": 12,
+      "answer_count": 2,
+      "score": -1,
+      "last_activity_date": 1539427846,
+      "creation_date": 1539427414,
+      "last_edit_date": 1539427622,
+      "question_id": 52792083,
+      "link": "https://stackoverflow.com/questions/52792083/final-variable-printing-in-java",
+      "title": "Final variable printing in java"
+    },
+    {
+      "tags": [
+        "java",
+        "unsafe-pointers"
+      ],
+      "owner": {
+        "reputation": 80,
+        "user_id": 1428945,
+        "user_type": "registered",
+        "accept_rate": 64,
+        "profile_image": "https://www.gravatar.com/avatar/888a341b0ec38d6b735726a1f4a9c081?s=128&d=identicon&r=PG",
+        "display_name": "user1428945",
+        "link": "https://stackoverflow.com/users/1428945/user1428945"
+      },
+      "is_answered": true,
+      "view_count": 34,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1539427303,
+      "creation_date": 1539401973,
+      "question_id": 52789313,
+      "link": "https://stackoverflow.com/questions/52789313/use-java-unsafe-to-point-char-array-to-a-memory-location",
+      "title": "Use Java unsafe to point char array to a memory location"
+    },
+    {
+      "tags": [
+        "java",
+        "eclipse",
+        "swt",
+        "keyboard-shortcuts",
+        "acceleratorkey"
+      ],
+      "owner": {
+        "reputation": 12516,
+        "user_id": 479886,
+        "user_type": "registered",
+        "accept_rate": 61,
+        "profile_image": "https://www.gravatar.com/avatar/95419af394cb72bff90ed13bf84cb419?s=128&d=identicon&r=PG&f=1",
+        "display_name": "NullPointerException",
+        "link": "https://stackoverflow.com/users/479886/nullpointerexception"
+      },
+      "is_answered": false,
+      "view_count": 14,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1539427102,
+      "creation_date": 1539424891,
+      "last_edit_date": 1539427102,
+      "question_id": 52791767,
+      "link": "https://stackoverflow.com/questions/52791767/java-swt-accelerator-shortcut-not-working-on-popup-context-menus",
+      "title": "Java SWT: Accelerator shortcut not working on PopUp context menus"
+    },
+    {
+      "tags": [
+        "java",
+        "user-interface",
+        "javafx",
+        "processing",
+        "fractals"
+      ],
+      "owner": {
+        "reputation": 786,
+        "user_id": 7274239,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/95a8acb728ffccfef0396e6de6d0e553?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Jan Čern&#253;",
+        "link": "https://stackoverflow.com/users/7274239/jan-%c4%8cern%c3%bd"
+      },
+      "is_answered": true,
+      "view_count": 118,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1539887444,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1539427027,
+      "creation_date": 1539031153,
+      "last_edit_date": 1539263295,
+      "question_id": 52709779,
+      "link": "https://stackoverflow.com/questions/52709779/java-processing-3-paplet-in-javafx-scene-as-canvas",
+      "title": "Java Processing 3 PAplet in JavaFX scene as Canvas"
+    },
+    {
+      "tags": [
+        "java",
+        "api",
+        "video-streaming"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 10498753,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c95b8c06f1217210de5c49017a63ebf0?s=128&d=identicon&r=PG&f=1",
+        "display_name": "PTR",
+        "link": "https://stackoverflow.com/users/10498753/ptr"
+      },
+      "is_answered": false,
+      "view_count": 19,
+      "answer_count": 1,
+      "score": -2,
+      "last_activity_date": 1539426413,
+      "creation_date": 1539425368,
+      "question_id": 52791818,
+      "link": "https://stackoverflow.com/questions/52791818/java-video-stream-api",
+      "title": "Java video stream API"
+    },
+    {
+      "tags": [
+        "arrays",
+        "java-8",
+        "java-stream"
+      ],
+      "owner": {
+        "reputation": 2143,
+        "user_id": 1594823,
+        "user_type": "registered",
+        "accept_rate": 64,
+        "profile_image": "https://i.stack.imgur.com/JxWbC.png?s=128&g=1",
+        "display_name": "Saikat",
+        "link": "https://stackoverflow.com/users/1594823/saikat"
+      },
+      "is_answered": true,
+      "view_count": 23,
+      "accepted_answer_id": 52789621,
+      "answer_count": 4,
+      "score": 1,
+      "last_activity_date": 1539425803,
+      "creation_date": 1539405632,
+      "question_id": 52789581,
+      "link": "https://stackoverflow.com/questions/52789581/compare-two-integer-arrays-using-java-stream",
+      "title": "Compare two integer arrays using Java Stream"
+    },
+    {
+      "tags": [
+        "java",
+        "gml"
+      ],
+      "owner": {
+        "reputation": 30,
+        "user_id": 3790160,
+        "user_type": "registered",
+        "accept_rate": 25,
+        "profile_image": "https://i.stack.imgur.com/vOchj.png?s=128&g=1",
+        "display_name": "BorutMatjasic",
+        "link": "https://stackoverflow.com/users/3790160/borutmatjasic"
+      },
+      "is_answered": true,
+      "view_count": 145,
+      "accepted_answer_id": 37237993,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1539425781,
+      "creation_date": 1463307268,
+      "last_edit_date": 1539425781,
+      "question_id": 37237018,
+      "link": "https://stackoverflow.com/questions/37237018/how-to-get-certain-data-types-from-java-networking-as-the-message-id",
+      "title": "How to get certain data types from Java networking as the message id"
+    },
+    {
+      "tags": [
+        "java",
+        "android",
+        "android-studio",
+        "kotlin",
+        "fetch2"
+      ],
+      "owner": {
+        "reputation": 2536,
+        "user_id": 6740698,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/-tFFAJ2BB1co/AAAAAAAAAAI/AAAAAAAAMBM/Mp1krWr_OVA/photo.jpg?sz=128",
+        "display_name": "Xenolion",
+        "link": "https://stackoverflow.com/users/6740698/xenolion"
+      },
+      "is_answered": false,
+      "view_count": 40,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1539425506,
+      "creation_date": 1539383053,
+      "last_edit_date": 1539425506,
+      "question_id": 52787727,
+      "link": "https://stackoverflow.com/questions/52787727/i-have-a-problem-after-java-to-kotlin-conversion-with-the-error-in-android-studi",
+      "title": "I have a problem after Java to Kotlin conversion with the error in Android Studio, Cannot infer a type for this parameter"
+    },
+    {
+      "tags": [
+        "java",
+        "memory",
+        "binary",
+        "store",
+        "twos-complement"
+      ],
+      "owner": {
+        "reputation": 4728,
+        "user_id": 668650,
+        "user_type": "registered",
+        "accept_rate": 77,
+        "profile_image": "https://www.gravatar.com/avatar/32c82f441e4396f06dcdd1dd2108382a?s=128&d=identicon&r=PG",
+        "display_name": "Kevin Rave",
+        "link": "https://stackoverflow.com/users/668650/kevin-rave"
+      },
+      "is_answered": true,
+      "view_count": 59953,
+      "accepted_answer_id": 13422442,
+      "answer_count": 10,
+      "score": 68,
+      "last_activity_date": 1539425272,
+      "creation_date": 1353090160,
+      "last_edit_date": 1353095492,
+      "question_id": 13422259,
+      "link": "https://stackoverflow.com/questions/13422259/how-are-integers-internally-represented-at-a-bit-level-in-java",
+      "title": "How are integers internally represented at a bit level in Java?"
+    },
+    {
+      "tags": [
+        "java",
+        "jvm"
+      ],
+      "owner": {
+        "reputation": 20,
+        "user_id": 9241107,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/EGMJ5.jpg?s=128&g=1",
+        "display_name": "ning morris",
+        "link": "https://stackoverflow.com/users/9241107/ning-morris"
+      },
+      "is_answered": true,
+      "view_count": 52,
+      "accepted_answer_id": 52770266,
+      "answer_count": 2,
+      "score": -3,
+      "last_activity_date": 1539425153,
+      "creation_date": 1539296061,
+      "last_edit_date": 1539296193,
+      "question_id": 52769633,
+      "link": "https://stackoverflow.com/questions/52769633/what-is-the-purpose-to-use-direct-memory-in-java",
+      "title": "What is the purpose to use direct memory in Java?"
+    },
+    {
+      "tags": [
+        "spring-boot",
+        "java-8",
+        "jvm",
+        "hyper-v"
+      ],
+      "owner": {
+        "reputation": 130,
+        "user_id": 2233080,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/86e807609686105ad38c03e0c3f65a6e?s=128&d=identicon&r=PG",
+        "display_name": "Brad",
+        "link": "https://stackoverflow.com/users/2233080/brad"
+      },
+      "is_answered": false,
+      "view_count": 10,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1539424845,
+      "creation_date": 1539354831,
+      "question_id": 52781787,
+      "link": "https://stackoverflow.com/questions/52781787/spring-boot-java-app-misbehaving-with-hyper-v-dynamic-memory",
+      "title": "Spring boot Java app misbehaving with Hyper-V dynamic memory"
+    },
+    {
+      "tags": [
+        "ibm-mq"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 10498423,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/594028829cf86897a7b8680cac2f6aea?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Dwen",
+        "link": "https://stackoverflow.com/users/10498423/dwen"
+      },
+      "is_answered": false,
+      "view_count": 9,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1539423708,
+      "creation_date": 1539416986,
+      "last_edit_date": 1539423708,
+      "question_id": 52790745,
+      "link": "https://stackoverflow.com/questions/52790745/java-mq-chunk-keeps-increasing",
+      "title": "java + MQ chunk keeps increasing"
+    },
+    {
+      "tags": [
+        "java",
+        "sockets"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 6648303,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/0bd1bce864037bd1115f292086a76e24?s=128&d=identicon&r=PG&f=1",
+        "display_name": "f.ald",
+        "link": "https://stackoverflow.com/users/6648303/f-ald"
+      },
+      "is_answered": false,
+      "view_count": 18,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1539423424,
+      "creation_date": 1539409903,
+      "question_id": 52789953,
+      "link": "https://stackoverflow.com/questions/52789953/java-socket-sending-compressed-object",
+      "title": "java socket sending compressed object"
+    },
+    {
+      "tags": [
+        "java",
+        "fileinputstream",
+        "fileoutputstream",
+        "objectoutputstream"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 10498588,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/1914912432148707/picture?type=large",
+        "display_name": "Clement Stanley",
+        "link": "https://stackoverflow.com/users/10498588/clement-stanley"
+      },
+      "is_answered": true,
+      "view_count": 24,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1539423344,
+      "creation_date": 1539421095,
+      "last_edit_date": 1539422310,
+      "question_id": 52791259,
+      "link": "https://stackoverflow.com/questions/52791259/java-how-to-make-objectinputstream-read-all-objects-from-file",
+      "title": "Java - How to make ObjectInputStream read all objects from file"
+    },
+    {
+      "tags": [
+        "java",
+        "optimization",
+        "java-8"
+      ],
+      "owner": {
+        "reputation": 2143,
+        "user_id": 1594823,
+        "user_type": "registered",
+        "accept_rate": 64,
+        "profile_image": "https://i.stack.imgur.com/JxWbC.png?s=128&g=1",
+        "display_name": "Saikat",
+        "link": "https://stackoverflow.com/users/1594823/saikat"
+      },
+      "is_answered": true,
+      "view_count": 65,
+      "answer_count": 4,
+      "score": 0,
+      "last_activity_date": 1539422987,
+      "creation_date": 1539408578,
+      "last_edit_date": 1539415056,
+      "question_id": 52789827,
+      "link": "https://stackoverflow.com/questions/52789827/simplifying-the-if-else-condition-using-java-functional-style-programming",
+      "title": "Simplifying the if-else condition using Java Functional Style Programming"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 10000,
+  "quota_remaining": 9931
+}
