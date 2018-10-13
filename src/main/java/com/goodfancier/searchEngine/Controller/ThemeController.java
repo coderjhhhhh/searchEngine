@@ -15,6 +15,11 @@ public class ThemeController extends ExceptionHandlerController
     @Autowired
     private NetConfig config;
 
+    @RequestMapping(value ="/", method = RequestMethod.GET)
+    public String index() {
+        return "index";
+    }
+
     @PostMapping("/getResult")
     @ResponseBody
     public String getResult(@RequestBody String title)
