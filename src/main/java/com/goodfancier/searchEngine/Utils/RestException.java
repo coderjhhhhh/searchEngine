@@ -1,5 +1,9 @@
 package com.goodfancier.searchEngine.Utils;
 
+
+/*
+* Утильный класс для обработки рест исключений
+* */
 public class RestException extends Exception
 {
     public RestException()

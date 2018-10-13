@@ -6,7 +6,10 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Theme implements DomainObject
+/*
+* Класс-обработчик JSON файла. Содержит поля, которые содержит JSON файл StackExchange API
+* */
+public class Theme
 {
     private String[] tags;
     private Owner owner;
