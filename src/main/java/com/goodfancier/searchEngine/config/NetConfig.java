@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
  * Find net configuration
  */
 @Configuration
-@ConfigurationProperties("netconfig")
 public class NetConfig
 {
     @Value("${net.host}")
